@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Component</title>
+
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row g-0 form-wrapper">
+            <div class="offset-lg-1 col-lg-5 form-background">
+            </div>
+            <div class="col-lg-5">
+                <div class="form">
+                    <div class="form-header">
+                        <h3 class="form-header__title">Welcome back!</h3>
+                        <p class="form-header__subtitle">Sign in to continue to Apps</p>
+                    </div>
+                    <form class="form-controller">
+                        <div class="form-controller__group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-controller__email" id="email"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="form-controller__group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-controller__password" id="password"
+                                placeholder="Enter your password">
+                        </div>
+                        <div class="form-controller__group">
+                            <input type="checkbox" checked class="form-controller__checkbox" id="checkbox">
+                            <label class="checkbox" for="checkbox">Remember Me</label>
+                        </div>
+                        <!-- <button type="submit" class="form-controller__button">Sign In</button> -->
+                        <button type="submit" class="form-controller__button-two">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
