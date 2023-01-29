@@ -26,14 +26,16 @@
                     </div>
                     <form class="form-controller">
                         <div class="form-controller__group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-controller__email" id="email"
+                            <label for="email">Email
+                            <input type="email" autocomplete="" class="form-controller__email" id="email"
                                 placeholder="Enter your email">
+                            </label>
                         </div>
                         <div class="form-controller__group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-controller__password" id="password"
-                                placeholder="Enter your password">
+                            <label class="password" for="password">Password
+                            <input type="password" autocomplete="current-password" class="form-controller__password" id="password" placeholder="Enter your password">
+                            <i class="bi bi-eye from-controller__toggle-icon"></i>
+                            </label>
                         </div>
                         <div class="form-controller__group">
                             <input type="checkbox" checked class="form-controller__checkbox" id="checkbox">
@@ -50,6 +52,7 @@
             <p>Developed with <i class="bi bi-heart-fill"></i> by <a target="_blank" href="#">Big Integer</a></p>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
