@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Component</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -15,6 +16,7 @@
     <div class="container-fluid">
         <div class="row g-0 form-wrapper">
             <div class="offset-lg-1 col-lg-5 form-background">
+                <div class="form-background__overlay"></div>
             </div>
             <div class="col-lg-5">
                 <div class="form">
@@ -37,11 +39,15 @@
                             <input type="checkbox" checked class="form-controller__checkbox" id="checkbox">
                             <label class="checkbox" for="checkbox">Remember Me</label>
                         </div>
+                        <!-- Alternative Button -->
                         <!-- <button type="submit" class="form-controller__button">Sign In</button> -->
                         <button type="submit" class="form-controller__button-two">Login</button>
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="footer">
+            <p>Developed with <i class="bi bi-heart-fill"></i> by <a target="_blank" href="#">Big Integer</a></p>
         </div>
     </div>
 </body>
